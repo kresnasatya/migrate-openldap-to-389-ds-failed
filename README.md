@@ -79,3 +79,10 @@ This repo contains steps to reproduce migration from OpenLDAP to 389 Directory S
     ```
 19. Run command `dsidm localhost client_config ldap.conf` get message **Must provide basedn!**
 20. I lost track and no have idea what should I do.
+
+**Note:** I rollback to OpenLDAP with command below.
+
+```bash
+sudo dsctl localhost remove --do-it
+sudo service slapd start
+```
