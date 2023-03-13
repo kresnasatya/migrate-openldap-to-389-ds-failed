@@ -1,0 +1,54 @@
+dn: dc=example,dc=org
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: example.org
+dc: example
+structuralObjectClass: organization
+entryUUID: 89a588ac-55e5-103d-8da6-7398e4023c43
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20230313122259Z
+entryCSN: 20230313122259.954792Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20230313122259Z
+
+dn: ou=users,dc=example,dc=org
+ou: users
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 8037aa6a-55e6-103d-91cf-c3b896c92d15
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20230313122953Z
+entryCSN: 20230313122953.632040Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20230313122953Z
+
+dn: ou=groups,dc=example,dc=org
+ou: groups
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 8af241cc-55e6-103d-91d0-c3b896c92d15
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20230313123011Z
+entryCSN: 20230313123011.632134Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20230313123011Z
+
+dn: uid=user1,ou=users,dc=example,dc=org
+uid: user1
+cn: User1
+sn: User1
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+structuralObjectClass: inetOrgPerson
+entryUUID: 9adcd3e0-55e6-103d-91d1-c3b896c92d15
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20230313123038Z
+entryCSN: 20230313123038.335240Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20230313123038Z
+
